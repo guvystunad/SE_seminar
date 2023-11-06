@@ -24,3 +24,10 @@ p {
     text-decoration-style: dotted;
     font-size: 25px;
 }
+
+img {
+    border: 5px solid #555;
+    border-style: dotted;
+    border-radius: 20px;
+    padding: 5px;
+  }

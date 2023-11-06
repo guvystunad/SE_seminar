@@ -38,15 +38,18 @@ img {
 table, th, td {
     border: 1px solid;
     border-collapse: collapse;
+    margin-left: auto;  
+    margin-right: auto;
+    text-align: center;
 }
 
 table {
     width: 50%;
+    align-items: center;
 }
 
 th, td {
     height: 30px;
-    text-align: center;
     font-family: "Copperplate", "Copperplate", fantasy;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -63,4 +66,20 @@ tr:hover {background-color: lightgreen;}
 body {
     background-image: linear-gradient(to right, rgba(255,255,255, 0.7) 0 100%), url(https://static.vecteezy.com/system/resources/previews/005/153/192/original/abstract-ornamental-seamless-pattern-with-leafs-in-navy-background-floral-repeating-background-endless-print-texture-fabric-design-wallpaper-free-vector.jpg);
     background-size: cover;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+a:link, a:visited {
+    background-color: green;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    color: black;
+    background-color: lawngreen;
 }

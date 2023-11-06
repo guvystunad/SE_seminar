@@ -1,0 +1,13 @@
+h1 {
+    color: darkgreen;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px lightgreen;
+    font-family: "Copperplate", "Copperplate", fantasy;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-color: lightseagreen;
+    text-decoration-style: wavy;
+    font-size: 50px;
+}

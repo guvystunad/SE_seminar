@@ -1,7 +1,7 @@
 h1 {
     color: darkgreen;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 15px;
     text-shadow: 2px 2px lightgreen;
     font-family: "Copperplate", "Copperplate", fantasy;
     font-style: italic;
@@ -10,4 +10,17 @@ h1 {
     text-decoration-color: lightseagreen;
     text-decoration-style: wavy;
     font-size: 50px;
+}
+
+p {
+    color: darkblue;
+    text-align: justify;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px lightskyblue;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(131, 130, 204);
+    text-decoration-style: dotted;
+    font-size: 25px;
 }

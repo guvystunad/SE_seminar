@@ -59,3 +59,8 @@ th {
 }
 
 tr:hover {background-color: lightgreen;}
+
+body {
+    background-image: linear-gradient(to right, rgba(255,255,255, 0.7) 0 100%), url(https://static.vecteezy.com/system/resources/previews/005/153/192/original/abstract-ornamental-seamless-pattern-with-leafs-in-navy-background-floral-repeating-background-endless-print-texture-fabric-design-wallpaper-free-vector.jpg);
+    background-size: cover;
+}
